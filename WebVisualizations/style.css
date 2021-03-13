@@ -1,0 +1,81 @@
+.box {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.button1 {
+  background-color: #4CAF50; /* Green */
+}
+
+.skyblue {
+  background: deepskyblue;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+.divpad {
+  padding-left: 5%;
+}
+
+.divcent {
+  text-align: center;
+}
+
+.sidenav {
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 160px;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin:auto; /* Same width as the sidebar + left position in px */
+  padding: 50px 10px;
+}
+
+.main h1 {font-size:28px;
+          color:#2196F3;
+          font-weight: bold;}
+
+.main p {font-size:18px;}
+
+.divvis {
+  padding: 50px;
+  margin:auto;
+}
+
+
+.figc {text-align: center;
+      font-weight: bold;}
+
+@media  (max-width: 450px) {
+  .sidenav {padding-top: 15px; width:130px;}
+  .sidenav a {font-size: 18px;}
+  .main {width:140px;}
+  .main h1 {font-size:20px;}
+  .main p {font-size:15px;}
+}
