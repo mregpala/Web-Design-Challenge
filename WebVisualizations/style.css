@@ -33,6 +33,10 @@ h1 {font-size:28px;
 h2 {font-size:24px;
     color:#2196F3;
     font-weight: bold;}
+
+h3 {font-size:18px;
+      color:#2196F3;
+      font-weight: bold;}
 .main p {font-size:18px;}
 
 .divvis {
@@ -40,7 +44,10 @@ h2 {font-size:24px;
   margin:auto;
 }
 
-
+thead {
+  color:white;
+  background-color:#2196F3 ;
+}
 .figc {text-align: center;
       font-weight: bold;}
 
@@ -48,21 +55,9 @@ h2 {font-size:24px;
   
    Note this style did not seem to work. May be due to new functionality with bootstrap 4.0 used class navbar-expand-sm
 */
-@media (max-width: 480px) {
-  .navbar li {
-    padding: 10px;
-  }
 
-  .post {
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-
-  .navbar ul {
-    visibility: hidden;
-  }
-
-  #nav-select {
-    visibility: visible;
+@media screen and (max-width: 479px) {
+  nav {
+      background-color: #ffffff;
   }
 }
